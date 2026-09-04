@@ -1,6 +1,7 @@
 # Weather API
 
 FastAPI service that fetches weather data from Visual Crossing (3rd party API) and caches responses in Redis.
+- Project URL: https://roadmap.sh/projects/weather-api-wrapper-service
 
 ## Requirements
 
