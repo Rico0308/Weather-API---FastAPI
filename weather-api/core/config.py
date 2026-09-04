@@ -11,6 +11,8 @@ class Settings(BaseSettings):
 
     cache_ttl_seconds: int = 300
 
+    rate_limit: str = "10/minute"
+
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
 

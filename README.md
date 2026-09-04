@@ -69,6 +69,7 @@ FastAPI service that fetches weather data from Visual Crossing (3rd party API) a
 | `REDIS_PORT`         | no       | `6379`                                                                   | Redis port                               |
 | `REDIS_DB`           | no       | `0`                                                                      | Redis DB index                           |
 | `CACHE_TTL_SECONDS`  | no       | `300`                                                                    | How long a cached weather response lives |
+| `RATE_LIMIT`         | no       | `10/minute`                                                              | Max requests per client IP (slowapi rate string) |
 
 See `.env.example` for a ready-to-copy template.
 
